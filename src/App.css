@@ -97,7 +97,7 @@ body {
   font-weight: lighter;
 }
 .main-div img {
-  height: 34em;
+  height: 30em;
 }
 
 .contacts {
@@ -341,11 +341,17 @@ body {
 }
 
 .resume-about {
-  padding: 5rem 2rem 4rem 0rem;
+  padding: 2rem 0rem 2rem 0rem;
 }
 
 .resume-about .resume-button {
-  background-color: #acafb1;
+  background-color: #9ec8b9;
+}
+.resume-about .resume-button {
+  background-color: #9ec8b9;
+}
+.resume-about .resume-button:hover {
+  background-color: #43766c;
 }
 
 .skills {
@@ -357,11 +363,37 @@ body {
 .skills div {
   opacity: 0;
   animation: fadeIn 1s 1s forwards;
-  padding: 1rem 0rem 1rem 0rem;
+  padding: 1rem 0px 1rem 0px;
+  width: 20rem;
 }
 
 .skills img {
   height: 2rem;
+}
+
+@keyframes drop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.parent-div {
+  position: relative;
+}
+
+.dropping-div {
+  /* position: absolute; */
+  left: 50%;
+  transform: translateX(-50%);
+  top: -100%;
+  opacity: 0;
+  animation: drop 0.5s ease-out forwards;
+  animation-delay: 2s;
 }
 @media (max-width: 800px) {
   .main-div {
@@ -398,7 +430,7 @@ body {
     padding: 0.7rem 1rem 0rem 1rem;
   }
   .tech {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: "Dancing Script", cursive;
     color: #7b7a7c;
   }
@@ -418,5 +450,8 @@ body {
     padding: 1rem 0px 0em 0px;
     font-size: x-large;
     font-weight: bold;
+  }
+  .dropping-div {
+    display: none;
   }
 }

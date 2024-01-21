@@ -17,6 +17,9 @@ import kube from "./icons/kubernetes.svg";
 import canva from "./icons/canva.svg";
 import latex from "./icons/latex.svg";
 import c from "./icons/c.svg";
+import FileDownloadIcon from "@mui/icons-material/FileDownload";
+import Button from "@mui/material/Button";
+import resume from "./resume/LEELA_SRIJA_ALLA_RESUME.pdf";
 
 function Experiment() {
   return (
@@ -138,7 +141,7 @@ function Experiment() {
                   <img src={canva}></img>
                 </IconButton>
               </Tooltip>
-              {/* <br /> */}
+              <br />
               <Tooltip title="C">
                 <IconButton aria-label="C">
                   <img src={c}></img>
@@ -153,12 +156,22 @@ function Experiment() {
           </div>
         </div>
       </div>
-      <div>
+      <div className="parent-div">
+        <div className="resume-about dropping-div">
+          <a href={resume} target="_blank">
+            <Button size="large" className="resume-button">
+              <FileDownloadIcon style={{ color: "white" }} />
+              <span className="resume-text">Resume</span>
+            </Button>
+          </a>
+        </div>
+      </div>
+      {/* <div>
         <div className="animated-text projects-heading">
           <span>Interest</span> <span>&</span> <span>Expertise</span>
         </div>
         <div></div>
-      </div>
+      </div> */}
       {/* <div className="animated-text projects-heading">
         <span>Skills</span>
       </div> */}
