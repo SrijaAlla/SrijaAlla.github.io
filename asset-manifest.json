@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lsalla/static/css/main.904d8ce7.css",
-    "main.js": "/lsalla/static/js/main.c7cbef94.js",
+    "main.js": "/lsalla/static/js/main.f5a465c6.js",
     "static/js/787.7da95b79.chunk.js": "/lsalla/static/js/787.7da95b79.chunk.js",
     "static/media/17mcme18_project.png": "/lsalla/static/media/17mcme18_project.aa9a9df873e61239e506.png",
     "static/media/16.JPG": "/lsalla/static/media/16.0132a71b67a559c99351.JPG",
@@ -27,12 +27,15 @@
     "static/media/LEELA_SRIJA_ALLA_RESUME.pdf": "/lsalla/static/media/LEELA_SRIJA_ALLA_RESUME.64da2cdff6095e09a167.pdf",
     "static/media/dkube.png": "/lsalla/static/media/dkube.4ade4e6467a0b41b969b.png",
     "static/media/react.svg": "/lsalla/static/media/react.598d90dd4f36234e376cbc6ccd571550.svg",
+    "static/media/jquery.svg": "/lsalla/static/media/jquery.ab812caf9c78eb016e5dfad7a80f2e32.svg",
     "static/media/latex.svg": "/lsalla/static/media/latex.c48da8585bd85e41fe32eca5285725d7.svg",
     "static/media/sa.svg": "/lsalla/static/media/sa.d5e3a533677b0c4b8108ba4545390a8d.svg",
     "static/media/mysql.svg": "/lsalla/static/media/mysql.11e7f49f05b5eb4a5eae7bbe1907a332.svg",
     "static/media/linux.svg": "/lsalla/static/media/linux.1ae7229d28d57fb184b684dd6602cf64.svg",
+    "static/media/jquery-no-text.svg": "/lsalla/static/media/jquery-no-text.866cd71c27ba0c3a4678b488f5a69afc.svg",
     "static/media/kubernetes.svg": "/lsalla/static/media/kubernetes.e8795fa38e7f98b0f2d4fdbff54f9560.svg",
     "static/media/nodejs.svg": "/lsalla/static/media/nodejs.a7f2ccf30eed3e5878a2ba1e6be108a2.svg",
+    "static/media/php.svg": "/lsalla/static/media/php.b576351b1a5fa650afe765140deb74d3.svg",
     "static/media/canva.svg": "/lsalla/static/media/canva.9e71cec215439ee116f20ed9e674d696.svg",
     "static/media/logo.svg": "/lsalla/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/docker.svg": "/lsalla/static/media/docker.47a900dbbbbe13dbe7c3171049ec68c8.svg",
@@ -47,11 +50,11 @@
     "index.html": "/lsalla/index.html",
     "static/media/c.svg": "/lsalla/static/media/c.c86ab343915e382feeddbee294b35c0a.svg",
     "main.904d8ce7.css.map": "/lsalla/static/css/main.904d8ce7.css.map",
-    "main.c7cbef94.js.map": "/lsalla/static/js/main.c7cbef94.js.map",
+    "main.f5a465c6.js.map": "/lsalla/static/js/main.f5a465c6.js.map",
     "787.7da95b79.chunk.js.map": "/lsalla/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.904d8ce7.css",
-    "static/js/main.c7cbef94.js"
+    "static/js/main.f5a465c6.js"
   ]
 }
