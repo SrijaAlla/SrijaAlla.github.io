@@ -17,6 +17,9 @@ import kube from "./icons/kubernetes.svg";
 import canva from "./icons/canva.svg";
 import latex from "./icons/latex.svg";
 import c from "./icons/c.svg";
+import php from "./icons/php.svg";
+import jquery from "./icons/jquery.svg";
+import jquery_no_text from "./icons/jquery-no-text.svg";
 import FileDownloadIcon from "@mui/icons-material/FileDownload";
 import Button from "@mui/material/Button";
 import resume from "./resume/LEELA_SRIJA_ALLA_RESUME.pdf";
@@ -76,6 +79,12 @@ function Experiment() {
                   <img src={reacticon}></img>
                 </IconButton>
               </Tooltip>
+              <Tooltip title="JQuery">
+                <IconButton aria-label="JQuery">
+                  <img src={jquery_no_text}></img>
+                </IconButton>
+              </Tooltip>
+              <br />
               <Tooltip title="Bootstrap">
                 <IconButton aria-label="Bootstrap">
                   <img src={bs}></img>
@@ -96,6 +105,11 @@ function Experiment() {
                   <img src={java}></img>
                 </IconButton>
               </Tooltip>
+              <Tooltip title="PHP">
+                <IconButton aria-label="Php">
+                  <img src={php}></img>
+                </IconButton>
+              </Tooltip>
               <Tooltip title="Node JS">
                 <IconButton aria-label="nodejs">
                   <img src={nodejs}></img>
@@ -106,6 +120,7 @@ function Experiment() {
                   <img src={mysql}></img>
                 </IconButton>
               </Tooltip>
+              <br />
               <Tooltip title="Mongo DB">
                 <IconButton aria-label="Mongo DB">
                   <img src={mongodb}></img>
@@ -114,7 +129,7 @@ function Experiment() {
             </div>
           </div>
           <div>
-            <div className="tech">Other Tools & Technology</div>
+            <div className="tech">Other Tools & Technologies</div>
             <div className="icons">
               <Tooltip title="Git">
                 <IconButton aria-label="Git">
