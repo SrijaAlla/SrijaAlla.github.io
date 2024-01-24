@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lsalla/static/css/main.ceccd35d.css",
-    "main.js": "/lsalla/static/js/main.90cc7216.js",
+    "main.js": "/lsalla/static/js/main.681e33e2.js",
     "static/js/787.7da95b79.chunk.js": "/lsalla/static/js/787.7da95b79.chunk.js",
     "static/media/17mcme18_project.png": "/lsalla/static/media/17mcme18_project.aa9a9df873e61239e506.png",
     "static/media/16.JPG": "/lsalla/static/media/16.0132a71b67a559c99351.JPG",
@@ -50,11 +50,11 @@
     "index.html": "/lsalla/index.html",
     "static/media/c.svg": "/lsalla/static/media/c.c86ab343915e382feeddbee294b35c0a.svg",
     "main.ceccd35d.css.map": "/lsalla/static/css/main.ceccd35d.css.map",
-    "main.90cc7216.js.map": "/lsalla/static/js/main.90cc7216.js.map",
+    "main.681e33e2.js.map": "/lsalla/static/js/main.681e33e2.js.map",
     "787.7da95b79.chunk.js.map": "/lsalla/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ceccd35d.css",
-    "static/js/main.90cc7216.js"
+    "static/js/main.681e33e2.js"
   ]
 }
