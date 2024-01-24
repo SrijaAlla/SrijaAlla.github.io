@@ -41,7 +41,7 @@ const cards = [
   {
     title: "Jindal Trading Company",
     description: "Description for card 2",
-    link: "https://www.jindaltradingcompany.in/",
+    link: "http://www.jindaltradingcompany.in/",
     image: jindal,
   },
   {

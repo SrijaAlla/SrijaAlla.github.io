@@ -148,6 +148,12 @@ body {
   font-weight: bold;
 }
 
+.interest {
+  padding: 0.6rem 0px 0.1em 0px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
 .project-card {
   transform: translateX(100%);
   animation: slideIn 0.5s ease forwards;
@@ -384,6 +390,9 @@ body {
 
 .parent-div {
   position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .dropping-div {
@@ -427,7 +436,7 @@ body {
     text-align: left;
   }
   .skills .tech {
-    padding: 0.7rem 1rem 0rem 1rem;
+    padding: 0.7rem 0.8rem 0rem 0.8rem;
   }
   .tech {
     font-size: 1.3rem;
@@ -436,7 +445,7 @@ body {
   }
 
   .skills .icons {
-    padding: 0.7rem 1rem 0rem 1rem;
+    padding: 0.7rem 0.8rem 0rem 0.8rem;
   }
   @keyframes typing {
     from {

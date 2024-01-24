@@ -84,7 +84,7 @@ function Experiment() {
                   <img src={jquery_no_text}></img>
                 </IconButton>
               </Tooltip>
-              <br />
+              {/* <br /> */}
               <Tooltip title="Bootstrap">
                 <IconButton aria-label="Bootstrap">
                   <img src={bs}></img>
@@ -120,7 +120,7 @@ function Experiment() {
                   <img src={mysql}></img>
                 </IconButton>
               </Tooltip>
-              <br />
+              {/* <br /> */}
               <Tooltip title="Mongo DB">
                 <IconButton aria-label="Mongo DB">
                   <img src={mongodb}></img>
@@ -156,7 +156,7 @@ function Experiment() {
                   <img src={canva}></img>
                 </IconButton>
               </Tooltip>
-              <br />
+              {/* <br /> */}
               <Tooltip title="C">
                 <IconButton aria-label="C">
                   <img src={c}></img>
