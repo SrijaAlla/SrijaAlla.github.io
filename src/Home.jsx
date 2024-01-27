@@ -97,9 +97,11 @@ function Home() {
         }
       </div>
 
-      <div className="contact">
-        <Contact />
-      </div>
+      {page != 1 && (
+        <div className="contact">
+          <Contact />
+        </div>
+      )}
     </div>
   );
 }

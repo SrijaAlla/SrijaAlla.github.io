@@ -18,7 +18,7 @@ const Art = () => {
       <img src={image5} className="art-image"></img>
       <img src={image6} className="art-image"></img>
       <img src={image9} className="art-image"></img>
-      <img src={image7} className="art-image"></img>
+      {/* <img src={image7} className="art-image"></img> */}
       <img src={image2} className="art-image"></img>
       <img src={image15} className="art-image"></img>
       <img src={image17} className="art-image"></img>

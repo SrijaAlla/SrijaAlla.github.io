@@ -148,6 +148,16 @@ body {
   font-weight: bold;
 }
 
+.projects-heading-about {
+  padding: 0.6rem 0rem 0.1em 5rem;
+  font-size: x-large;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+
+  /* display: flex; */
+  /* text-align: end; */
+}
+
 .interest {
   padding: 0.6rem 0px 0.1em 0px;
   font-size: x-large;
@@ -194,6 +204,12 @@ body {
 
 .animated-text {
   display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.animated-text-about {
+  display: flex;
   overflow: hidden;
   white-space: nowrap;
 }
@@ -347,7 +363,7 @@ body {
 }
 
 .resume-about {
-  padding: 2rem 0rem 2rem 0rem;
+  padding: 3rem 0rem 2rem 0rem;
 }
 
 .resume-about .resume-button {
@@ -370,7 +386,7 @@ body {
   opacity: 0;
   animation: fadeIn 1s 1s forwards;
   padding: 1rem 0px 1rem 0px;
-  width: 20rem;
+  /* width: 20rem; */
 }
 
 .skills img {

@@ -23,6 +23,11 @@ import jquery_no_text from "./icons/jquery-no-text.svg";
 import FileDownloadIcon from "@mui/icons-material/FileDownload";
 import Button from "@mui/material/Button";
 import resume from "./resume/LEELA_SRIJA_ALLA_RESUME.pdf";
+import opencv from "./icons/opencv.svg";
+import scikit from "./icons/scikit.svg";
+import pytorch from "./icons/pytorch.svg";
+import flask from "./icons/flask.svg";
+import tensorflow from "./icons/tensorflow.svg";
 
 function Experiment() {
   return (
@@ -129,6 +134,37 @@ function Experiment() {
             </div>
           </div>
           <div>
+            <div className="tech">Python Frameworks</div>
+            <div className="icons">
+              <Tooltip title="OpenCV">
+                <IconButton aria-label="Git">
+                  <img src={opencv}></img>
+                </IconButton>
+              </Tooltip>
+              <Tooltip title="TensorFlow">
+                <IconButton aria-label="Linux">
+                  <img src={tensorflow}></img>
+                </IconButton>
+              </Tooltip>
+              <Tooltip title="Scikit Learn">
+                <IconButton aria-label="Docker">
+                  <img src={scikit}></img>
+                </IconButton>
+              </Tooltip>
+              <Tooltip title="Pytorch">
+                <IconButton aria-label="kubernetes">
+                  <img src={pytorch}></img>
+                </IconButton>
+              </Tooltip>
+              <Tooltip title="Flask">
+                <IconButton aria-label="Canva">
+                  <img src={flask}></img>
+                </IconButton>
+              </Tooltip>
+              {/* <br /> */}
+            </div>
+          </div>
+          <div>
             <div className="tech">Other Tools & Technologies</div>
             <div className="icons">
               <Tooltip title="Git">
@@ -171,22 +207,23 @@ function Experiment() {
           </div>
         </div>
       </div>
-      <div className="parent-div">
-        <div className="resume-about dropping-div">
-          <a href={resume} target="_blank">
-            <Button size="large" className="resume-button">
-              <FileDownloadIcon style={{ color: "white" }} />
-              <span className="resume-text">Resume</span>
-            </Button>
-          </a>
+      <div>
+        {/* <div className="animated-text-about projects-heading-about dropping-div">
+          <span>Interests</span>
+          <span> </span> <span>&</span> <span>Expertise</span>
+        </div> */}
+        <div></div>
+        <div className="parent-div">
+          <div className="resume-about dropping-div">
+            <a href={resume} target="_blank">
+              <Button size="large" className="resume-button">
+                <FileDownloadIcon style={{ color: "white" }} />
+                <span className="resume-text">Resume</span>
+              </Button>
+            </a>
+          </div>
         </div>
       </div>
-      {/* <div>
-        <div className="animated-text projects-heading">
-          <span>Interest</span> <span>&</span> <span>Expertise</span>
-        </div>
-        <div></div>
-      </div> */}
       {/* <div className="animated-text projects-heading">
         <span>Skills</span>
       </div> */}
