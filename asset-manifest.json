@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/lsalla/static/css/main.7d7921c6.css",
+    "main.css": "/lsalla/static/css/main.10564bd0.css",
     "main.js": "/lsalla/static/js/main.cab2ca0e.js",
     "static/js/787.7da95b79.chunk.js": "/lsalla/static/js/787.7da95b79.chunk.js",
     "static/media/17mcme18_project.png": "/lsalla/static/media/17mcme18_project.aa9a9df873e61239e506.png",
@@ -54,12 +54,12 @@
     "static/media/bootstrap.svg": "/lsalla/static/media/bootstrap.9518848464ffec466930f7df76d964f8.svg",
     "index.html": "/lsalla/index.html",
     "static/media/c.svg": "/lsalla/static/media/c.c86ab343915e382feeddbee294b35c0a.svg",
-    "main.7d7921c6.css.map": "/lsalla/static/css/main.7d7921c6.css.map",
+    "main.10564bd0.css.map": "/lsalla/static/css/main.10564bd0.css.map",
     "main.cab2ca0e.js.map": "/lsalla/static/js/main.cab2ca0e.js.map",
     "787.7da95b79.chunk.js.map": "/lsalla/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d7921c6.css",
+    "static/css/main.10564bd0.css",
     "static/js/main.cab2ca0e.js"
   ]
 }
