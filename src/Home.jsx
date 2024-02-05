@@ -9,11 +9,13 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
+import FavoriteIcon from "@mui/icons-material/Favorite";
 import sa from "./assets/sa.svg";
 import DownloadIcon from "@mui/icons-material/Download";
 import ColorLensIcon from "@mui/icons-material/ColorLens";
 import Art from "./Art.js";
 import About from "./About.jsx";
+import Gallery from "./gallery.jsx";
 // import IconButton from "@mui/material/IconButton";
 
 function Home() {
@@ -83,6 +85,14 @@ function Home() {
           >
             <ColorLensIcon />
           </Button>
+          <Button
+            onClick={() => {
+              setPage(4);
+            }}
+            color="inherit"
+          >
+            <FavoriteIcon style={{ color: "#A94438" }} />
+          </Button>
         </Toolbar>
       </AppBar>
 
@@ -93,6 +103,7 @@ function Home() {
             1: <About />,
             2: <Work />,
             3: <Art />,
+            4: <Gallery />,
           }[page]
         }
       </div>
