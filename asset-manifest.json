@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lsalla/static/css/main.10564bd0.css",
-    "main.js": "/lsalla/static/js/main.1d353afb.js",
+    "main.js": "/lsalla/static/js/main.f7035665.js",
     "static/js/787.7da95b79.chunk.js": "/lsalla/static/js/787.7da95b79.chunk.js",
     "static/media/image9.JPG": "/lsalla/static/media/image9.f39a2cbf01d8cf249f7c.JPG",
     "static/media/image3.JPG": "/lsalla/static/media/image3.665dfe9b7f4460cc815b.JPG",
@@ -37,6 +37,7 @@
     "static/media/image13.jpg": "/lsalla/static/media/image13.5b85f4750f114e239375.jpg",
     "static/media/19.jpg": "/lsalla/static/media/19.277b7d057b3da38779c5.jpg",
     "static/media/image2.jpg": "/lsalla/static/media/image2.277b7d057b3da38779c5.jpg",
+    "static/media/22.jpg": "/lsalla/static/media/22.56a5e5aea298d3774022.jpg",
     "static/media/image10.JPG": "/lsalla/static/media/image10.51efa2b3b60486597cac.JPG",
     "static/media/om.png": "/lsalla/static/media/om.af217234504d4794115d.png",
     "static/media/image17.jpg": "/lsalla/static/media/image17.aae590b3e14cf3d0dd0d.jpg",
@@ -58,6 +59,7 @@
     "static/media/image22.jpeg": "/lsalla/static/media/image22.653ac755e7105049f482.jpeg",
     "static/media/dkube.png": "/lsalla/static/media/dkube.4ade4e6467a0b41b969b.png",
     "static/media/image19.jpg": "/lsalla/static/media/image19.612610c2c45f60de12aa.jpg",
+    "static/media/21.jpg": "/lsalla/static/media/21.f63926c9a3ff400c302d.jpg",
     "static/media/flask.svg": "/lsalla/static/media/flask.f74879d56c9294439efcb2f1eaaabf6d.svg",
     "static/media/opencv.svg": "/lsalla/static/media/opencv.cdca8e7fb77fad3a2b3ca93149320c7e.svg",
     "static/media/react.svg": "/lsalla/static/media/react.598d90dd4f36234e376cbc6ccd571550.svg",
@@ -87,11 +89,11 @@
     "index.html": "/lsalla/index.html",
     "static/media/c.svg": "/lsalla/static/media/c.c86ab343915e382feeddbee294b35c0a.svg",
     "main.10564bd0.css.map": "/lsalla/static/css/main.10564bd0.css.map",
-    "main.1d353afb.js.map": "/lsalla/static/js/main.1d353afb.js.map",
+    "main.f7035665.js.map": "/lsalla/static/js/main.f7035665.js.map",
     "787.7da95b79.chunk.js.map": "/lsalla/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.10564bd0.css",
-    "static/js/main.1d353afb.js"
+    "static/js/main.f7035665.js"
   ]
 }
