@@ -420,6 +420,33 @@ body {
   animation: drop 0.5s ease-out forwards;
   animation-delay: 2s;
 }
+
+.timeline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* flex-direction: column; */
+}
+
+.timeline-year {
+  width: 50px;
+  height: 50px;
+  background: #ddd;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 50px;
+  /* position: absolute; */
+  /* left: 0; */
+  /* transform: translateX(-50%); */
+}
+
+.timeline-line {
+  border-top: 2px solid #666;
+  position: absolute;
+  width: -webkit-fill-available;
+  z-index: 1;
+}
+
 @media (max-width: 800px) {
   .main-div {
     flex-direction: column;

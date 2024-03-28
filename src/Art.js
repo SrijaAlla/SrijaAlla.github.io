@@ -15,6 +15,8 @@ import image19 from './assets/18.jpg'
 import image20 from './assets/19.jpg'
 import image21 from './assets/17.jpg'
 import image22 from './assets/20.jpeg'
+import image23 from './assets/21.jpg'
+import image24 from './assets/22.jpg'
 
 // import art from "./assets/artbg.jpg";
 const Art = () => {
@@ -35,6 +37,8 @@ const Art = () => {
 
       <img src={image8} className="art-image"></img>
       <img src={image1} className="art-image"></img>
+      <img src={image23} className="art-image"></img>
+      <img src={image24} className="art-image"></img>
     </div>
   )
 }

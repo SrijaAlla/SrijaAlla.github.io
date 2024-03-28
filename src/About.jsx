@@ -28,6 +28,7 @@ import scikit from "./icons/scikit.svg";
 import pytorch from "./icons/pytorch.svg";
 import flask from "./icons/flask.svg";
 import tensorflow from "./icons/tensorflow.svg";
+import Timeline from "./timeline.jsx";
 
 function Experiment() {
   return (
@@ -227,6 +228,7 @@ function Experiment() {
       {/* <div className="animated-text projects-heading">
         <span>Skills</span>
       </div> */}
+      {/* <Timeline /> */}
     </div>
   );
 }
