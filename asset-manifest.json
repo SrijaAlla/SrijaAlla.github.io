@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lsalla/static/css/main.3612093b.css",
-    "main.js": "/lsalla/static/js/main.4476b330.js",
+    "main.js": "/lsalla/static/js/main.5ef05144.js",
     "static/js/787.7da95b79.chunk.js": "/lsalla/static/js/787.7da95b79.chunk.js",
     "static/media/image9.JPG": "/lsalla/static/media/image9.f39a2cbf01d8cf249f7c.JPG",
     "static/media/image3.JPG": "/lsalla/static/media/image3.665dfe9b7f4460cc815b.JPG",
@@ -40,6 +40,7 @@
     "static/media/22.jpg": "/lsalla/static/media/22.56a5e5aea298d3774022.jpg",
     "static/media/image10.JPG": "/lsalla/static/media/image10.51efa2b3b60486597cac.JPG",
     "static/media/om.png": "/lsalla/static/media/om.af217234504d4794115d.png",
+    "static/media/monitoring.png": "/lsalla/static/media/monitoring.0575d72b97aa10a06464.png",
     "static/media/image17.jpg": "/lsalla/static/media/image17.aae590b3e14cf3d0dd0d.jpg",
     "static/media/image29.jpeg": "/lsalla/static/media/image29.0c52740301bfc3e1298b.jpeg",
     "static/media/9.jpg": "/lsalla/static/media/9.30292844e7fe92fb1bba.jpg",
@@ -49,11 +50,14 @@
     "static/media/hand.png": "/lsalla/static/media/hand.4eb1497ddd0b8006adc1.png",
     "static/media/15.JPG": "/lsalla/static/media/15.c6834cd802c27b27df1e.JPG",
     "static/media/image5.jpg": "/lsalla/static/media/image5.63f2b7a86058f0911802.jpg",
+    "static/media/er_bcnf.png": "/lsalla/static/media/er_bcnf.60130f47c4961b8a4f30.png",
     "static/media/LEELA_SRIJA_ALLA_RESUME.pdf": "/lsalla/static/media/LEELA_SRIJA_ALLA_RESUME.4aac5e2f72a9214e0ea7.pdf",
+    "static/media/Modelarchitecture.png": "/lsalla/static/media/Modelarchitecture.4fb6a8f4b33b4fe30a19.png",
     "static/media/image24.jpeg": "/lsalla/static/media/image24.7eed15106c52352915b6.jpeg",
     "static/media/18.jpg": "/lsalla/static/media/18.2c5b04ec02ce6c62c5c2.jpg",
     "static/media/image23.jpeg": "/lsalla/static/media/image23.1291c3cbf9d035f27a57.jpeg",
     "static/media/image20.jpg": "/lsalla/static/media/image20.c7911abe091fbeddb61b.jpg",
+    "static/media/architecture.png": "/lsalla/static/media/architecture.37169149cd5b3763b2f8.png",
     "static/media/image1.jpg": "/lsalla/static/media/image1.9b5e527270bb9fd5f798.jpg",
     "static/media/image8.jpg": "/lsalla/static/media/image8.e466cc9303db6471a260.jpg",
     "static/media/image22.jpeg": "/lsalla/static/media/image22.653ac755e7105049f482.jpeg",
@@ -89,11 +93,11 @@
     "index.html": "/lsalla/index.html",
     "static/media/c.svg": "/lsalla/static/media/c.c86ab343915e382feeddbee294b35c0a.svg",
     "main.3612093b.css.map": "/lsalla/static/css/main.3612093b.css.map",
-    "main.4476b330.js.map": "/lsalla/static/js/main.4476b330.js.map",
+    "main.5ef05144.js.map": "/lsalla/static/js/main.5ef05144.js.map",
     "787.7da95b79.chunk.js.map": "/lsalla/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3612093b.css",
-    "static/js/main.4476b330.js"
+    "static/js/main.5ef05144.js"
   ]
 }
