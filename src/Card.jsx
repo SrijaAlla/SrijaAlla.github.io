@@ -12,7 +12,29 @@ import lamap from "./assets/lamap.png";
 import dkube from "./assets/dkube.png";
 import jindal from "./assets/jindal.png";
 import portfolio from "./assets/portfolio.png";
+import nli4ct from "./assets/Modelarchitecture.png";
+import erbcnf from "./assets/er_bcnf.png";
+import facial from "./assets/architecture.png";
+import monitoring from "./assets/monitoring.png";
 const cards = [
+  {
+    title: "Multi evidence Natural Language Inference",
+    description: "Description for card 1",
+    link: "https://github.com/SrijaAlla/LLMs_in_health_sciences",
+    image: nli4ct,
+  },
+  {
+    title: "Analysis of IMDB Movie dataset",
+    description: "Description for card 1",
+    link: "https://github.com/SrijaAlla/imdb-postgres",
+    image: erbcnf,
+  },
+  {
+    title: "Facial Emotion Recognition",
+    description: "Description for card 1",
+    link: "https://github.com/SrijaAlla/imdb-postgres",
+    image: facial,
+  },
   {
     title: "Crime Analysis with Los Angeles Dataset",
     description: "Description for card 1",
@@ -55,6 +77,12 @@ const cards = [
     description: "Description for card 3",
     link: "https://github.com/SrijaAlla/Play-store-games-scraping",
     image: playstore,
+  },
+  {
+    title: "Study on Network Monitoring Tools",
+    description: "Description for card 3",
+    link: "https://github.com/SrijaAlla/Network-Classification-and-Monitoring-Tools-Breif",
+    image: monitoring,
   },
   {
     title: "Personal Portfolio",
