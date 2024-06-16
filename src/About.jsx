@@ -47,7 +47,7 @@ function Experiment() {
             <span className="text">"Long way to go"</span>
           </div>
           <div>
-            <p class="typing"># Seeking Summer Internship Oppurtunities</p>
+            <p class="typing"># Seeking Full time Opportunities</p>
           </div>
         </div>
       </div>

@@ -1,13 +1,16 @@
 import srija from "./assets/mobilepage.jpeg";
 import frog from "./assets/nobgfrog.png";
 import hand from "./assets/hand.png";
+import srija1 from "./assets/profile1.jpeg";
+import srija2 from "./assets/profile2.jpeg";
+import srija3 from "./assets/profile3.jpeg";
 
 function Profile() {
   return (
     <div className="Home">
       <div className="main-div">
         <div>
-          <img src={srija}></img>
+          <img src={srija3}></img>
         </div>
         <div className="description">
           <span className="emo">

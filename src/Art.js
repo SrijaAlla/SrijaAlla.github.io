@@ -17,6 +17,8 @@ import image21 from './assets/17.jpg'
 import image22 from './assets/20.jpeg'
 import image23 from './assets/21.jpg'
 import image24 from './assets/22.jpg'
+import image25 from './assets/23.jpeg'
+import image26 from './assets/24.jpeg'
 
 // import art from "./assets/artbg.jpg";
 const Art = () => {
@@ -24,21 +26,25 @@ const Art = () => {
     <div className="Art">
       <img src={image5} className="art-image"></img>
       <img src={image6} className="art-image"></img>
+      <img src={image26} className="art-image"></img>
       <img src={image22} className="art-image"></img>
 
-      <img src={image9} className="art-image"></img>
       {/* <img src={image7} className="art-image"></img> */}
       <img src={image2} className="art-image"></img>
       <img src={image15} className="art-image"></img>
+      <img src={image25} className="art-image"></img>
+
       <img src={image17} className="art-image"></img>
       <img src={image21} className="art-image"></img>
       <img src={image18} className="art-image"></img>
-      <img src={image20} className="art-image"></img>
 
       <img src={image8} className="art-image"></img>
-      <img src={image1} className="art-image"></img>
-      <img src={image23} className="art-image"></img>
       <img src={image24} className="art-image"></img>
+      <img src={image1} className="art-image"></img>
+      {/* <img src={image23} className="art-image"></img> */}
+      {/* <img src={image20} className="art-image"></img> */}
+
+      {/* <img src={image9} className="art-image"></img> */}
     </div>
   )
 }
