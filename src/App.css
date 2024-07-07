@@ -19,7 +19,9 @@
   }
 }
 .Home {
-  padding: 3em 20px 3em 20px;
+  padding: 4em 20px 3em 20px;
+  /* display: flex;
+  margin: 0 auto; */
 }
 
 .Art {
@@ -94,6 +96,9 @@
 }
 .main-div img {
   height: 30em;
+}
+.contact {
+  z-index: 100;
 }
 
 .contacts {
