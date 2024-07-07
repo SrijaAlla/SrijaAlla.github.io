@@ -13,10 +13,6 @@
   box-sizing: border-box;
 }
 
-body {
-  /* padding: 50px 10px 0px 10px; */
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
