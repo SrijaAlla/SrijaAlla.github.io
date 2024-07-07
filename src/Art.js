@@ -24,10 +24,18 @@ import image26 from './assets/24.jpeg'
 const Art = () => {
   return (
     <div className="Art">
+      {/* <div className="image-container"> */}
       <img src={image5} className="art-image"></img>
+      {/* </div> */}
+      {/* <div className="image-container"> */}
       <img src={image6} className="art-image"></img>
+      {/* </div> */}
+      {/* <div className="image-container"> */}
       <img src={image26} className="art-image"></img>
+      {/* </div> */}
+      {/* <div className="image-container"> */}
       <img src={image22} className="art-image"></img>
+      {/* </div> */}
 
       {/* <img src={image7} className="art-image"></img> */}
       <img src={image2} className="art-image"></img>
