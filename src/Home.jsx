@@ -1,8 +1,7 @@
 // import React from "react";
 import "./App.css";
 import Contact from "./Contact.jsx";
-import Profile from "./Profile.jsx";
-import Work from "./Work.jsx";
+
 import React, { useState } from "react";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
@@ -11,12 +10,8 @@ import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import sa from "./assets/sa.svg";
-import DownloadIcon from "@mui/icons-material/Download";
 import ColorLensIcon from "@mui/icons-material/ColorLens";
-import Art from "./Art.js";
-import About from "./About.jsx";
-import Gallery from "./gallery.jsx";
-// import IconButton from "@mui/material/IconButton";
+import { Link } from "react-router-dom";
 
 function Home() {
   const [page, setPage] = useState(0);
@@ -38,14 +33,24 @@ function Home() {
             sx={{ flexGrow: 3 }}
             className="srija-logo"
           >
-            <Button
+            {/* <Button
               onClick={() => {
                 setPage(0);
               }}
               color="inherit"
             >
               <img src={sa}></img>
-            </Button>
+            </Button> */}
+            <Link to="/">
+              <Button
+                color="inherit"
+                onClick={() => {
+                  setPage(0);
+                }}
+              >
+                <img src={sa} alt="logo" />
+              </Button>
+            </Link>
           </Typography>
           <Button
             // aria-label="Resume"
@@ -53,6 +58,8 @@ function Home() {
               setPage(1);
             }}
             color="inherit"
+            component={Link}
+            to="/about"
             // style={{ backgroundColor: "#9EC8B9" }}
           >
             About
@@ -61,7 +68,9 @@ function Home() {
             onClick={() => {
               setPage(2);
             }}
+            component={Link}
             color="inherit"
+            to="/work"
           >
             Work
           </Button>
@@ -70,7 +79,7 @@ function Home() {
             // aria-label="Resume"
             onClick={() => {
               setPage(2);
-            }}
+            }} 
             color="inherit"
             className="resume-button"
             // style={{ backgroundColor: "#9EC8B9" }}
@@ -82,6 +91,8 @@ function Home() {
               setPage(3);
             }}
             color="inherit"
+            component={Link}
+            to="/gallery"
           >
             <ColorLensIcon />
           </Button>
@@ -90,13 +101,15 @@ function Home() {
               setPage(4);
             }}
             color="inherit"
+            component={Link}
+            to="/life"
           >
             <FavoriteIcon style={{ color: "#A94438" }} />
           </Button>
         </Toolbar>
       </AppBar>
 
-      <div className="content">
+      {/* <div className="content">
         {
           {
             0: <Profile />,
@@ -106,9 +119,9 @@ function Home() {
             4: <Gallery />,
           }[page]
         }
-      </div>
+      </div> */}
 
-      {page != 1 && (
+      {page !== 1 && (
         <div className="contact">
           <Contact />
         </div>
