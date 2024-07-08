@@ -19,7 +19,7 @@
   }
 }
 .Home {
-  padding: 4em 20px 3em 20px;
+  padding: 2.5em 20px 3em 20px;
   /* display: flex;
   margin: 0 auto; */
 }
@@ -95,7 +95,7 @@
   font-weight: lighter;
 }
 .main-div img {
-  height: 30em;
+  height: 27em;
 }
 .contact {
   z-index: 100;
@@ -109,6 +109,7 @@
   align-items: center;
   width: 100%;
   background-color: white;
+  z-index: inherit;
 }
 
 .contacts .cont {
@@ -135,7 +136,8 @@
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 2rem;
   padding: 30px 20px 3em 20px;
-  overflow: hidden;
+  overflow: auto;
+  /* z-index: 0; */
 }
 
 .About {

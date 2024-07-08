@@ -102,7 +102,7 @@ const CardList = () => {
             target="_blank"
             // rel="noopener"
             rel="noreferrer"
-            style={{ textDecoration: "None" }}
+            style={{ textDecoration: "None", zIndex: "inherit" }}
           >
             <Card sx={{ minWidth: "20rem" }} className="card">
               <CardMedia sx={{ height: "10rem" }} image={card.image} />
