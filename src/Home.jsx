@@ -13,12 +13,26 @@ import sa from "./assets/sa.svg";
 import ColorLensIcon from "@mui/icons-material/ColorLens";
 import { Link } from "react-router-dom";
 
+import { Routes, Route } from "react-router-dom";
+import Art from "./Art.js";
+import About from "./About.jsx";
+import Gallery from "./gallery.jsx";
+import Profile from "./Profile.jsx";
+import Work from "./Work.jsx";
+
 function Home() {
   const [page, setPage] = useState(0);
 
   return (
     <div>
-      <AppBar position="sticky" style={{ backgroundColor: "#092635" }}>
+      <AppBar
+        // position="fixed"
+        style={{
+          backgroundColor: "#092635",
+          position: "sticky",
+          top: 0,
+        }}
+      >
         <Toolbar>
           <IconButton
             size="large"
@@ -85,6 +99,14 @@ function Home() {
           </Button>
         </Toolbar>
       </AppBar>
+
+      <Routes>
+        <Route path="/" element={<Profile />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/work" element={<Work />} />
+        <Route path="/gallery" element={<Art />} />
+        <Route path="/life" element={<Gallery />} />
+      </Routes>
 
       {page !== 1 && (
         <div className="contact">
