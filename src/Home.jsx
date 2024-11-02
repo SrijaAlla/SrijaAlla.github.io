@@ -17,6 +17,7 @@ import About from "./About.jsx";
 import Gallery from "./gallery.jsx";
 import Profile from "./Profile.jsx";
 import Work from "./Work.jsx";
+import Chatbot from "./ChatPage.jsx";
 
 function Home() {
   const [page, setPage] = useState(0);
@@ -28,6 +29,8 @@ function Home() {
         style={{
           backgroundColor: "#092635",
           position: "sticky",
+          // marginTop: "1em",
+          // borderRadius: "3em",
           top: 0,
         }}
       >
